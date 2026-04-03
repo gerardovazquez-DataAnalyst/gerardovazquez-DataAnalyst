@@ -41,7 +41,7 @@ Actualmente construyendo mi portafolio con proyectos reales usando Python, SQL, 
 
 | Proyecto | Herramienta | Estado |
 |---|---|---|
-| Brazilian E-Commerce Analysis | SQL / PostgreSQL | 🔄 En desarrollo |
+| Brazilian E-Commerce Analysis | SQL / PostgreSQL | 🔄 Completado |
 | Sales Dashboard | Power BI | 🔄 En desarrollo |
 | Financial Tracker | Google Sheets | 🔄 En desarrollo |
 
