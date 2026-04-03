@@ -1,8 +1,8 @@
 # Hola, soy Gerardo Vázquez Cruz 👋
 
-Analista de datos en formación con enfoque en **comportamiento de usuarios**, **segmentación** y **análisis de churn**. Me interesa convertir datos desordenados en decisiones claras de negocio.
+Analista de datos con enfoque en **comportamiento de usuarios**, **segmentación** y **operaciones de negocio**. Me interesa convertir datos desordenados en decisiones claras — no solo reportar números, sino explicar qué significan y qué hacer con ellos.
 
-Actualmente construyendo mi portafolio con proyectos reales usando Python, SQL, Power BI y Google Sheets.
+He construido proyectos reales end-to-end usando Python, SQL, PostgreSQL y Power BI, trabajando con datasets de e-commerce, telecomunicaciones y comportamiento de clientes.
 
 ---
 
@@ -27,7 +27,18 @@ Actualmente construyendo mi portafolio con proyectos reales usando Python, SQL, 
 
 ## 📂 Proyectos Destacados
 
-### 🔵 [ConnectaTel — Customer Behavior Analysis & Churn Segmentation](https://github.com/gerardovazquez-DataAnalyst/connectatel-churn-analysis)
+### 🟠 [Olist — Brazilian E-Commerce Analysis](https://github.com/gerardovazquez-DataAnalyst/olist-ecommerce-analysis)
+> Análisis SQL end-to-end de ~100K órdenes de un marketplace brasileño — Revenue, Operaciones y Experiencia del Cliente.
+
+- Identifiqué que Health & Beauty lideró el revenue por volumen, no por precio — con implicaciones directas para estrategias de upselling
+- Descubrí que el Nordeste concentraba los peores tiempos de entrega del país y correlacionaba con una caída de ~1.5 estrellas en satisfacción
+- Detecté sellers con más del 65% de reseñas negativas activos en el marketplace
+- Construí una capa de vistas en PostgreSQL como interfaz limpia hacia Power BI
+- **Stack:** SQL · PostgreSQL · DBeaver · Power BI
+
+---
+
+### 🔵 [ConnectaTel — Customer Behavior Analysis & Churn Segmentation](https://github.com/gerardovazquez-DataAnalyst/connectatel_customer_analysis)
 > Análisis de comportamiento de clientes y segmentación de churn para una empresa de telecomunicaciones LATAM.
 
 - Exploración y limpieza de datos sobre 4,000 usuarios y 40,000 registros de uso
@@ -41,7 +52,6 @@ Actualmente construyendo mi portafolio con proyectos reales usando Python, SQL, 
 
 | Proyecto | Herramienta | Estado |
 |---|---|---|
-| Brazilian E-Commerce Analysis | SQL / PostgreSQL | 🔄 Completado |
 | Sales Dashboard | Power BI | 🔄 En desarrollo |
 | Financial Tracker | Google Sheets | 🔄 En desarrollo |
 
