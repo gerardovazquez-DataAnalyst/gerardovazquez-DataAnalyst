@@ -1,12 +1,14 @@
-Analista de datos con enfoque en **comportamiento de usuarios**, **segmentación** y **validación estadística de hipótesis de negocio**. Me interesa convertir datos desordenados en decisiones claras — no solo reportar números, sino explicar qué significan y qué hacer con ellos.
+# Hola — soy Gerardo 👋
 
-He construido proyectos reales end-to-end usando Python, SQL, PostgreSQL y Power BI, trabajando con datasets de e-commerce, telecomunicaciones y experimentación digital.
+Analista de datos en México. Me interesa una cosa: que los datos terminen en una decisión, no en un slide deck que nadie vuelve a abrir.
+
+He construido proyectos end-to-end donde el entregable no es solo un dashboard o un notebook — es un hallazgo que cambia la lectura del negocio. Como descubrir que el +11% de crecimiento de una empresa inmobiliaria es insostenible porque la adquisición de clientes cayó 67%, o que una landing page B genera $7.66 más por usuario convertido con un p-value de 1.06e-20.
 
 ---
 
-## 🛠️ Stack & Herramientas
+## 🛠️ Stack & herramientas
 
-**Lenguajes & Análisis**
+**Lenguajes & análisis**
 `Python` · `SQL` · `PostgreSQL`
 
 **Librerías**
@@ -16,25 +18,35 @@ He construido proyectos reales end-to-end usando Python, SQL, PostgreSQL y Power
 `Prueba t de Student` · `Prueba Z de proporciones` · `Chi-cuadrada` · `A/B Testing` · `Prueba de Levene`
 
 **Visualización & BI**
-`Power BI` · `Google Sheets`
+`Power BI` · `DAX` · `Google Sheets`
+
+**Modelado de datos**
+`Esquema estrella` · `Tablas de hechos y dimensiones` · `Análisis de cohortes`
 
 **Entorno de trabajo**
 `Google Colab` · `Jupyter Notebook` · `DBeaver`
 
-**Documentación**
-`Notion` · `GitHub`
+---
+
+## 📂 Proyectos destacados
+
+### 🏗️ [Grupo Andes — Análisis Comercial Inmobiliario](https://github.com/gerardovazquez-DataAnalyst/grupo-andes-analisis-inmobiliario)
+> Dashboard de 3 vistas en Power BI con narrativa SCQA — el hallazgo principal: el +11% YoY es insostenible.
+
+- Construí un modelo estrella con 23 medidas DAX organizadas en 8 carpetas funcionales y 4 columnas calculadas para análisis de cohortes
+- Diseñé deltas dinámicos bidireccionales con `SELECTEDVALUE` + `REMOVEFILTERS` que comparan cualquier año contra el otro y desaparecen cuando ambos están seleccionados
+- Descubrí que Departamento vende 60% del volumen pero solo genera 31% del ingreso — un scatter plot de paradoja volumen vs ingreso que cambió la recomendación comercial
+- Revelé que la adquisición de clientes cayó 67% (197→64/mes) y el ingreso de primera compra pasó de 61% a 18%, exponiendo que el crecimiento se sostiene por inercia de recompra, no por nueva demanda
+- **Stack:** Power BI · DAX · Python · Pandas
 
 ---
 
-## 📂 Proyectos Destacados
-
 ### 🟣 [Landing Page A/B Test — Conversion & Revenue Analysis](https://github.com/gerardovazquez-DataAnalyst/ab-testing-landing-page)
-> Análisis estadístico completo de un experimento A/B para una landing page de ecommerce — 40,000 usuarios, 28 días, 4 pruebas estadísticas, una decisión.
+> Análisis estadístico de un experimento A/B — 40,000 usuarios, 28 días, 4 pruebas estadísticas, una decisión.
 
 - Apliqué prueba t de Student + Levene para comparar gasto promedio: página B genera $7.66 más por usuario convertido ($68.75 vs $61.09), con p-value de 1.06e-20
-- Confirmé via prueba Z de proporciones que página B convierte 3.38pp más (15.96% vs 12.57%), con p-value de 3.76e-22
+- Confirmé vía prueba Z de proporciones que página B convierte 3.38pp más (15.96% vs 12.57%), con p-value de 3.76e-22
 - Descubrí que el tipo de usuario (Nuevo vs Recurrente) no tiene impacto estadísticamente significativo en la conversión (p=0.474) — eliminando una variable de segmentación sin respaldo en datos
-- Verifiqué todos los supuestos estadísticos antes de cada prueba: independencia, frecuencias esperadas ≥5 y homocedasticidad
 - **Stack:** Python · Pandas · SciPy · Statsmodels · Matplotlib · Seaborn
 
 ---
@@ -44,7 +56,6 @@ He construido proyectos reales end-to-end usando Python, SQL, PostgreSQL y Power
 
 - Identifiqué que Health & Beauty lideró el revenue por volumen, no por precio — con implicaciones directas para estrategias de upselling
 - Descubrí que el Nordeste concentraba los peores tiempos de entrega del país y correlacionaba con una caída de ~1.5 estrellas en satisfacción
-- Detecté sellers con más del 65% de reseñas negativas activos en el marketplace
 - Construí una capa de vistas en PostgreSQL como interfaz limpia hacia Power BI
 - **Stack:** SQL · PostgreSQL · DBeaver · Power BI
 
@@ -53,9 +64,8 @@ He construido proyectos reales end-to-end usando Python, SQL, PostgreSQL y Power
 ### 🔵 [ConnectaTel — Customer Behavior Analysis & Churn Segmentation](https://github.com/gerardovazquez-DataAnalyst/connectatel_customer_analysis)
 > Análisis de comportamiento de clientes y segmentación de churn para una empresa de telecomunicaciones LATAM.
 
-- Exploración y limpieza de datos sobre 4,000 usuarios y 40,000 registros de uso
-- Segmentación por plan, ciudad y patrones de consumo
-- Identificación de perfiles de alto riesgo de cancelación sin señales previas visibles
+- Identificación de desalineación oferta-comportamiento: usuarios de alto uso pagando excedentes superiores al costo del plan Premium
+- Detección de churn silencioso en usuarios de bajo uso sin señales previas visibles
 - **Stack:** Python · Pandas · Seaborn · Matplotlib · SciPy
 
 ---
